@@ -1,0 +1,84 @@
+{
+  "id": 39720478968,
+  "run_id": 14178932078,
+  "workflow_name": "debugging Demo",
+  "head_branch": "main",
+  "run_url": "https://api.github.com/repos/marviigrey/debug-workflows/actions/runs/14178932078",
+  "run_attempt": 2,
+  "node_id": "CR_kwDOOOJU388AAAAJP4Zo-A",
+  "head_sha": "69456690cd7f043766e465bbb87d52c80211cfb7",
+  "url": "https://api.github.com/repos/marviigrey/debug-workflows/actions/jobs/39720478968",
+  "html_url": "https://github.com/marviigrey/debug-workflows/actions/runs/14178932078/job/39720478968",
+  "status": "completed",
+  "conclusion": "failure",
+  "created_at": "2025-03-31T18:44:20Z",
+  "started_at": "2025-03-31T18:44:23Z",
+  "completed_at": "2025-03-31T18:44:26Z",
+  "name": "debug_job",
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 1,
+      "started_at": "2025-03-31T18:44:24Z",
+      "completed_at": "2025-03-31T18:44:24Z"
+    },
+    {
+      "name": "Step 1 - checkout repo",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 2,
+      "started_at": "2025-03-31T18:44:24Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    },
+    {
+      "name": "Step 2 - Set User_1 as username",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 3,
+      "started_at": "2025-03-31T18:44:25Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    },
+    {
+      "name": "Step 3 - Printing Username",
+      "status": "completed",
+      "conclusion": "failure",
+      "number": 4,
+      "started_at": "2025-03-31T18:44:25Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    },
+    {
+      "name": "Step 4 Printing USER 2",
+      "status": "completed",
+      "conclusion": "skipped",
+      "number": 5,
+      "started_at": "2025-03-31T18:44:25Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    },
+    {
+      "name": "Post Step 1 - checkout repo",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 10,
+      "started_at": "2025-03-31T18:44:25Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 11,
+      "started_at": "2025-03-31T18:44:25Z",
+      "completed_at": "2025-03-31T18:44:25Z"
+    }
+  ],
+  "check_run_url": "https://api.github.com/repos/marviigrey/debug-workflows/check-runs/39720478968",
+  "labels": [
+    "ubuntu-latest"
+  ],
+  "runner_id": 1000000116,
+  "runner_name": "GitHub Actions",
+  "runner_group_id": 0,
+  "runner_group_name": ""
+}

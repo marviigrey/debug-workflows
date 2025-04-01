@@ -1,0 +1,347 @@
+﻿2025-03-31T18:44:24.2241251Z ##[debug]Starting: debug_job
+2025-03-31T18:44:24.2270844Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2025-03-31T18:44:24.2424713Z ##[debug]Starting: Set up job
+2025-03-31T18:44:24.2426720Z Current runner version: '2.323.0'
+2025-03-31T18:44:24.2458456Z ##[group]Operating System
+2025-03-31T18:44:24.2459475Z Ubuntu
+2025-03-31T18:44:24.2460388Z 24.04.2
+2025-03-31T18:44:24.2461076Z LTS
+2025-03-31T18:44:24.2461816Z ##[endgroup]
+2025-03-31T18:44:24.2462678Z ##[group]Runner Image
+2025-03-31T18:44:24.2463565Z Image: ubuntu-24.04
+2025-03-31T18:44:24.2464361Z Version: 20250323.1.0
+2025-03-31T18:44:24.2466465Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250323.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-03-31T18:44:24.2468864Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250323.1
+2025-03-31T18:44:24.2470595Z ##[endgroup]
+2025-03-31T18:44:24.2471482Z ##[group]Runner Image Provisioner
+2025-03-31T18:44:24.2472381Z 2.0.422.1
+2025-03-31T18:44:24.2473498Z ##[endgroup]
+2025-03-31T18:44:24.2475536Z ##[group]GITHUB_TOKEN Permissions
+2025-03-31T18:44:24.2478321Z Contents: read
+2025-03-31T18:44:24.2479177Z Metadata: read
+2025-03-31T18:44:24.2480168Z Packages: read
+2025-03-31T18:44:24.2480988Z ##[endgroup]
+2025-03-31T18:44:24.2483890Z Secret source: Actions
+2025-03-31T18:44:24.2485357Z ##[debug]Primary repository: marviigrey/debug-workflows
+2025-03-31T18:44:24.2486633Z Prepare workflow directory
+2025-03-31T18:44:24.2575968Z ##[debug]Creating pipeline directory: '/home/runner/work/debug-workflows'
+2025-03-31T18:44:24.2580999Z ##[debug]Creating workspace directory: '/home/runner/work/debug-workflows/debug-workflows'
+2025-03-31T18:44:24.2583514Z ##[debug]Update context data
+2025-03-31T18:44:24.2589695Z ##[debug]Evaluating job-level environment variables
+2025-03-31T18:44:24.3020715Z ##[debug]Evaluating job container
+2025-03-31T18:44:24.3024760Z ##[debug]Evaluating job service containers
+2025-03-31T18:44:24.3028852Z ##[debug]Evaluating job defaults
+2025-03-31T18:44:24.3064751Z Prepare all required actions
+2025-03-31T18:44:24.3121639Z Getting action download info
+2025-03-31T18:44:24.5471839Z ##[group]Download immutable action package 'actions/checkout@v4'
+2025-03-31T18:44:24.5473283Z Version: 4.2.2
+2025-03-31T18:44:24.5474290Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+2025-03-31T18:44:24.5475856Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+2025-03-31T18:44:24.5476549Z ##[endgroup]
+2025-03-31T18:44:24.5501137Z ##[debug]Copied action archive '/opt/actionarchivecache/actions_checkout/11bd71901bbe5b1630ceea73d27597364c9af683.tar.gz' to '/home/runner/work/_actions/_temp_20d8f578-6891-41e5-8137-bd60aa8eb7c8/15b1888b-dcc9-4701-928d-063cfcb432c7.tar.gz'
+2025-03-31T18:44:24.6158591Z ##[debug]Unwrap 'actions-checkout-11bd719' to '/home/runner/work/_actions/actions/checkout/v4'
+2025-03-31T18:44:24.6299167Z ##[debug]Archive '/home/runner/work/_actions/_temp_20d8f578-6891-41e5-8137-bd60aa8eb7c8/15b1888b-dcc9-4701-928d-063cfcb432c7.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/checkout/v4'.
+2025-03-31T18:44:24.6406975Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/checkout/v4/action.yml'.
+2025-03-31T18:44:24.6981218Z ##[debug]Set step '__actions_checkout' display name to: 'Step 1 - checkout repo'
+2025-03-31T18:44:24.6984341Z ##[debug]Set step '__run' display name to: 'Step 2 - Set User_1 as username'
+2025-03-31T18:44:24.6986836Z ##[debug]Set step '__run_2' display name to: 'Step 3 - Printing Username'
+2025-03-31T18:44:24.6988729Z ##[debug]Set step '__run_3' display name to: 'Step 4 Printing USER 2'
+2025-03-31T18:44:24.6989542Z Complete job name: debug_job
+2025-03-31T18:44:24.7012541Z ##[debug]Collect running processes for tracking orphan processes.
+2025-03-31T18:44:24.7240841Z ##[debug]Finishing: Set up job
+2025-03-31T18:44:24.7443947Z ##[debug]Evaluating condition for step: 'Step 1 - checkout repo'
+2025-03-31T18:44:24.7482195Z ##[debug]Evaluating: success()
+2025-03-31T18:44:24.7487836Z ##[debug]Evaluating success:
+2025-03-31T18:44:24.7502588Z ##[debug]=> true
+2025-03-31T18:44:24.7509465Z ##[debug]Result: true
+2025-03-31T18:44:24.7532069Z ##[debug]Starting: Step 1 - checkout repo
+2025-03-31T18:44:24.7599315Z ##[debug]Register post job cleanup for action: actions/checkout@v4
+2025-03-31T18:44:24.7673437Z ##[debug]Loading inputs
+2025-03-31T18:44:24.7682123Z ##[debug]Evaluating: github.repository
+2025-03-31T18:44:24.7683253Z ##[debug]Evaluating Index:
+2025-03-31T18:44:24.7685288Z ##[debug]..Evaluating github:
+2025-03-31T18:44:24.7686424Z ##[debug]..=> Object
+2025-03-31T18:44:24.7692205Z ##[debug]..Evaluating String:
+2025-03-31T18:44:24.7693042Z ##[debug]..=> 'repository'
+2025-03-31T18:44:24.7697178Z ##[debug]=> 'marviigrey/debug-workflows'
+2025-03-31T18:44:24.7698906Z ##[debug]Result: 'marviigrey/debug-workflows'
+2025-03-31T18:44:24.7701863Z ##[debug]Evaluating: github.token
+2025-03-31T18:44:24.7702387Z ##[debug]Evaluating Index:
+2025-03-31T18:44:24.7702846Z ##[debug]..Evaluating github:
+2025-03-31T18:44:24.7703308Z ##[debug]..=> Object
+2025-03-31T18:44:24.7703735Z ##[debug]..Evaluating String:
+2025-03-31T18:44:24.7704178Z ##[debug]..=> 'token'
+2025-03-31T18:44:24.7705174Z ##[debug]=> '***'
+2025-03-31T18:44:24.7705758Z ##[debug]Result: '***'
+2025-03-31T18:44:24.7719056Z ##[debug]Loading env
+2025-03-31T18:44:24.7776073Z ##[group]Run actions/checkout@v4
+2025-03-31T18:44:24.7776737Z with:
+2025-03-31T18:44:24.7777136Z   repository: marviigrey/debug-workflows
+2025-03-31T18:44:24.7777781Z   token: ***
+2025-03-31T18:44:24.7778148Z   ssh-strict: true
+2025-03-31T18:44:24.7778525Z   ssh-user: git
+2025-03-31T18:44:24.7778901Z   persist-credentials: true
+2025-03-31T18:44:24.7779327Z   clean: true
+2025-03-31T18:44:24.7779700Z   sparse-checkout-cone-mode: true
+2025-03-31T18:44:24.7780169Z   fetch-depth: 1
+2025-03-31T18:44:24.7780607Z   fetch-tags: false
+2025-03-31T18:44:24.7780986Z   show-progress: true
+2025-03-31T18:44:24.7781369Z   lfs: false
+2025-03-31T18:44:24.7781717Z   submodules: false
+2025-03-31T18:44:24.7782107Z   set-safe-directory: true
+2025-03-31T18:44:24.7782693Z env:
+2025-03-31T18:44:24.7783040Z   USER_1: grey
+2025-03-31T18:44:24.7783396Z   USER_2: marvii
+2025-03-31T18:44:24.7783760Z ##[endgroup]
+2025-03-31T18:44:24.9480284Z ##[debug]GITHUB_WORKSPACE = '/home/runner/work/debug-workflows/debug-workflows'
+2025-03-31T18:44:24.9482533Z ##[debug]qualified repository = 'marviigrey/debug-workflows'
+2025-03-31T18:44:24.9483961Z ##[debug]ref = 'refs/heads/main'
+2025-03-31T18:44:24.9485452Z ##[debug]commit = '69456690cd7f043766e465bbb87d52c80211cfb7'
+2025-03-31T18:44:24.9486704Z ##[debug]clean = true
+2025-03-31T18:44:24.9487363Z ##[debug]filter = undefined
+2025-03-31T18:44:24.9488219Z ##[debug]fetch depth = 1
+2025-03-31T18:44:24.9488999Z ##[debug]fetch tags = false
+2025-03-31T18:44:24.9490161Z ##[debug]show progress = true
+2025-03-31T18:44:24.9491439Z ##[debug]lfs = false
+2025-03-31T18:44:24.9492471Z ##[debug]submodules = false
+2025-03-31T18:44:24.9493193Z ##[debug]recursive submodules = false
+2025-03-31T18:44:24.9494005Z ##[debug]GitHub Host URL = 
+2025-03-31T18:44:24.9496493Z ::add-matcher::/home/runner/work/_actions/actions/checkout/v4/dist/problem-matcher.json
+2025-03-31T18:44:24.9577456Z ##[debug]Added matchers: 'checkout-git'. Problem matchers scan action output for known warning or error strings and report these inline.
+2025-03-31T18:44:24.9582724Z Syncing repository: marviigrey/debug-workflows
+2025-03-31T18:44:24.9584029Z ::group::Getting Git version info
+2025-03-31T18:44:24.9585527Z ##[group]Getting Git version info
+2025-03-31T18:44:24.9586383Z Working directory is '/home/runner/work/debug-workflows/debug-workflows'
+2025-03-31T18:44:24.9587398Z ##[debug]Getting git version
+2025-03-31T18:44:24.9587911Z [command]/usr/bin/git version
+2025-03-31T18:44:24.9607597Z git version 2.49.0
+2025-03-31T18:44:24.9631542Z ##[debug]0
+2025-03-31T18:44:24.9632881Z ##[debug]git version 2.49.0
+2025-03-31T18:44:24.9633569Z ##[debug]
+2025-03-31T18:44:24.9634765Z ##[debug]Set git useragent to: git/2.49.0 (github-actions-checkout)
+2025-03-31T18:44:24.9636704Z ::endgroup::
+2025-03-31T18:44:24.9637375Z ##[endgroup]
+2025-03-31T18:44:24.9640908Z ::add-mask::***
+2025-03-31T18:44:24.9648016Z Temporarily overriding HOME='/home/runner/work/_temp/3d9c462d-65a8-4bd1-a3d1-d371d7e54a2c' before making global git config changes
+2025-03-31T18:44:24.9650212Z Adding repository directory to the temporary git global config as a safe directory
+2025-03-31T18:44:24.9653403Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/debug-workflows/debug-workflows
+2025-03-31T18:44:24.9687608Z ##[debug]0
+2025-03-31T18:44:24.9688597Z ##[debug]
+2025-03-31T18:44:24.9692406Z Deleting the contents of '/home/runner/work/debug-workflows/debug-workflows'
+2025-03-31T18:44:24.9696276Z ::group::Initializing the repository
+2025-03-31T18:44:24.9696881Z ##[group]Initializing the repository
+2025-03-31T18:44:24.9700213Z [command]/usr/bin/git init /home/runner/work/debug-workflows/debug-workflows
+2025-03-31T18:44:24.9765782Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-03-31T18:44:24.9767334Z hint: is subject to change. To configure the initial branch name to use in all
+2025-03-31T18:44:24.9768743Z hint: of your new repositories, which will suppress this warning, call:
+2025-03-31T18:44:24.9769739Z hint:
+2025-03-31T18:44:24.9770224Z hint: 	git config --global init.defaultBranch <name>
+2025-03-31T18:44:24.9771194Z hint:
+2025-03-31T18:44:24.9772127Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-03-31T18:44:24.9773632Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-03-31T18:44:24.9775050Z hint:
+2025-03-31T18:44:24.9775662Z hint: 	git branch -m <name>
+2025-03-31T18:44:24.9776571Z Initialized empty Git repository in /home/runner/work/debug-workflows/debug-workflows/.git/
+2025-03-31T18:44:24.9780453Z ##[debug]0
+2025-03-31T18:44:24.9782085Z ##[debug]Initialized empty Git repository in /home/runner/work/debug-workflows/debug-workflows/.git/
+2025-03-31T18:44:24.9783387Z ##[debug]
+2025-03-31T18:44:24.9785825Z [command]/usr/bin/git remote add origin https://github.com/marviigrey/debug-workflows
+2025-03-31T18:44:24.9816551Z ##[debug]0
+2025-03-31T18:44:24.9817509Z ##[debug]
+2025-03-31T18:44:24.9818526Z ::endgroup::
+2025-03-31T18:44:24.9819077Z ##[endgroup]
+2025-03-31T18:44:24.9819851Z ::group::Disabling automatic garbage collection
+2025-03-31T18:44:24.9820445Z ##[group]Disabling automatic garbage collection
+2025-03-31T18:44:24.9821452Z [command]/usr/bin/git config --local gc.auto 0
+2025-03-31T18:44:24.9848934Z ##[debug]0
+2025-03-31T18:44:24.9849654Z ##[debug]
+2025-03-31T18:44:24.9850238Z ::endgroup::
+2025-03-31T18:44:24.9850587Z ##[endgroup]
+2025-03-31T18:44:24.9851195Z ::group::Setting up auth
+2025-03-31T18:44:24.9851627Z ##[group]Setting up auth
+2025-03-31T18:44:24.9856420Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-03-31T18:44:24.9880248Z ##[debug]1
+2025-03-31T18:44:24.9880990Z ##[debug]
+2025-03-31T18:44:24.9886395Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-03-31T18:44:25.0160982Z ##[debug]0
+2025-03-31T18:44:25.0161616Z ##[debug]
+2025-03-31T18:44:25.0165996Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-03-31T18:44:25.0189479Z ##[debug]1
+2025-03-31T18:44:25.0190103Z ##[debug]
+2025-03-31T18:44:25.0194292Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-03-31T18:44:25.0415102Z ##[debug]0
+2025-03-31T18:44:25.0415850Z ##[debug]
+2025-03-31T18:44:25.0423446Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-03-31T18:44:25.0451609Z ##[debug]0
+2025-03-31T18:44:25.0452823Z ##[debug]
+2025-03-31T18:44:25.0460754Z ::endgroup::
+2025-03-31T18:44:25.0461193Z ##[endgroup]
+2025-03-31T18:44:25.0461835Z ::group::Fetching the repository
+2025-03-31T18:44:25.0462312Z ##[group]Fetching the repository
+2025-03-31T18:44:25.0478389Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +69456690cd7f043766e465bbb87d52c80211cfb7:refs/remotes/origin/main
+2025-03-31T18:44:25.3199758Z From https://github.com/marviigrey/debug-workflows
+2025-03-31T18:44:25.3201172Z  * [new ref]         69456690cd7f043766e465bbb87d52c80211cfb7 -> origin/main
+2025-03-31T18:44:25.3227160Z ##[debug]0
+2025-03-31T18:44:25.3228489Z ##[debug]
+2025-03-31T18:44:25.3229737Z ::endgroup::
+2025-03-31T18:44:25.3230513Z ##[endgroup]
+2025-03-31T18:44:25.3231940Z ::group::Determining the checkout info
+2025-03-31T18:44:25.3232998Z ##[group]Determining the checkout info
+2025-03-31T18:44:25.3234469Z ::endgroup::
+2025-03-31T18:44:25.3235369Z ##[endgroup]
+2025-03-31T18:44:25.3237833Z [command]/usr/bin/git sparse-checkout disable
+2025-03-31T18:44:25.3273652Z ##[debug]0
+2025-03-31T18:44:25.3275167Z ##[debug]
+2025-03-31T18:44:25.3279042Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-03-31T18:44:25.3305412Z ##[debug]0
+2025-03-31T18:44:25.3306644Z ##[debug]
+2025-03-31T18:44:25.3307900Z ::group::Checking out the ref
+2025-03-31T18:44:25.3308859Z ##[group]Checking out the ref
+2025-03-31T18:44:25.3310851Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-03-31T18:44:25.3358172Z Switched to a new branch 'main'
+2025-03-31T18:44:25.3360833Z branch 'main' set up to track 'origin/main'.
+2025-03-31T18:44:25.3365915Z ##[debug]0
+2025-03-31T18:44:25.3367372Z ##[debug]branch 'main' set up to track 'origin/main'.
+2025-03-31T18:44:25.3368428Z ##[debug]
+2025-03-31T18:44:25.3369702Z ::endgroup::
+2025-03-31T18:44:25.3370511Z ##[endgroup]
+2025-03-31T18:44:25.3398099Z ##[debug]0
+2025-03-31T18:44:25.3399568Z ##[debug]commit 69456690cd7f043766e465bbb87d52c80211cfb7
+2025-03-31T18:44:25.3400973Z ##[debug]Author: marviigrey <marvellousfrederick@gmail.com>
+2025-03-31T18:44:25.3402382Z ##[debug]Date:   Mon Mar 31 19:18:47 2025 +0100
+2025-03-31T18:44:25.3403441Z ##[debug]
+2025-03-31T18:44:25.3404157Z ##[debug]    added debug workflow
+2025-03-31T18:44:25.3405214Z ##[debug]
+2025-03-31T18:44:25.3406006Z [command]/usr/bin/git log -1 --format=%H
+2025-03-31T18:44:25.3425689Z 69456690cd7f043766e465bbb87d52c80211cfb7
+2025-03-31T18:44:25.3431140Z ##[debug]0
+2025-03-31T18:44:25.3432614Z ##[debug]69456690cd7f043766e465bbb87d52c80211cfb7
+2025-03-31T18:44:25.3433634Z ##[debug]
+2025-03-31T18:44:25.3437673Z ##[debug]Unsetting HOME override
+2025-03-31T18:44:25.3446705Z ::remove-matcher owner=checkout-git::
+2025-03-31T18:44:25.3461438Z ##[debug]Removed matchers: 'checkout-git'
+2025-03-31T18:44:25.3530539Z ##[debug]Node Action run completed with exit code 0
+2025-03-31T18:44:25.3564201Z ##[debug]Save intra-action state isPost = true
+2025-03-31T18:44:25.3565206Z ##[debug]Save intra-action state setSafeDirectory = true
+2025-03-31T18:44:25.3566226Z ##[debug]Save intra-action state repositoryPath = /home/runner/work/debug-workflows/debug-workflows
+2025-03-31T18:44:25.3570414Z ##[debug]Set output commit = 69456690cd7f043766e465bbb87d52c80211cfb7
+2025-03-31T18:44:25.3571559Z ##[debug]Set output ref = refs/heads/main
+2025-03-31T18:44:25.3577643Z ##[debug]Finishing: Step 1 - checkout repo
+2025-03-31T18:44:25.3593357Z ##[debug]Evaluating condition for step: 'Step 2 - Set User_1 as username'
+2025-03-31T18:44:25.3596662Z ##[debug]Evaluating: success()
+2025-03-31T18:44:25.3597380Z ##[debug]Evaluating success:
+2025-03-31T18:44:25.3598105Z ##[debug]=> true
+2025-03-31T18:44:25.3598749Z ##[debug]Result: true
+2025-03-31T18:44:25.3599822Z ##[debug]Starting: Step 2 - Set User_1 as username
+2025-03-31T18:44:25.3612414Z ##[debug]Loading inputs
+2025-03-31T18:44:25.3616672Z ##[debug]Loading env
+2025-03-31T18:44:25.3633925Z ##[group]Run echo "USERNAME=$USER_1" >> $GITHUB_ENV
+2025-03-31T18:44:25.3634642Z [36;1mecho "USERNAME=$USER_1" >> $GITHUB_ENV[0m
+2025-03-31T18:44:25.3686652Z shell: /usr/bin/bash -e {0}
+2025-03-31T18:44:25.3687167Z env:
+2025-03-31T18:44:25.3687532Z   USER_1: grey
+2025-03-31T18:44:25.3687920Z   USER_2: marvii
+2025-03-31T18:44:25.3688305Z ##[endgroup]
+2025-03-31T18:44:25.3753242Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/3874d5fd-fd4b-4b74-8379-2ecb881829b0.sh
+2025-03-31T18:44:25.3782117Z ##[debug]USERNAME='grey'
+2025-03-31T18:44:25.3785001Z ##[debug]Finishing: Step 2 - Set User_1 as username
+2025-03-31T18:44:25.3794726Z ##[debug]Evaluating condition for step: 'Step 3 - Printing Username'
+2025-03-31T18:44:25.3796747Z ##[debug]Evaluating: success()
+2025-03-31T18:44:25.3797437Z ##[debug]Evaluating success:
+2025-03-31T18:44:25.3798110Z ##[debug]=> true
+2025-03-31T18:44:25.3798794Z ##[debug]Result: true
+2025-03-31T18:44:25.3799661Z ##[debug]Starting: Step 3 - Printing Username
+2025-03-31T18:44:25.3810100Z ##[debug]Loading inputs
+2025-03-31T18:44:25.3811420Z ##[debug]Loading env
+2025-03-31T18:44:25.3818903Z ##[group]Run echo "Printing username env variable from previous step"
+2025-03-31T18:44:25.3819797Z [36;1mecho "Printing username env variable from previous step"[0m
+2025-03-31T18:44:25.3820494Z [36;1mecho "Username =========== $USERNAME"[0m
+2025-03-31T18:44:25.3821028Z [36;1mexit 1[0m
+2025-03-31T18:44:25.3863773Z shell: /usr/bin/bash -e {0}
+2025-03-31T18:44:25.3864263Z env:
+2025-03-31T18:44:25.3864615Z   USER_1: grey
+2025-03-31T18:44:25.3865233Z   USER_2: marvii
+2025-03-31T18:44:25.3865663Z   USERNAME: grey
+2025-03-31T18:44:25.3866041Z ##[endgroup]
+2025-03-31T18:44:25.3911951Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/fd3618b5-4065-48f4-9464-bcf596ea9bb9.sh
+2025-03-31T18:44:25.3932655Z Printing username env variable from previous step
+2025-03-31T18:44:25.3933678Z Username =========== grey
+2025-03-31T18:44:25.3942761Z ##[error]Process completed with exit code 1.
+2025-03-31T18:44:25.3955435Z ##[debug]Finishing: Step 3 - Printing Username
+2025-03-31T18:44:25.3975132Z ##[debug]Evaluating condition for step: 'Step 4 Printing USER 2'
+2025-03-31T18:44:25.3976924Z ##[debug]Evaluating: success()
+2025-03-31T18:44:25.3977613Z ##[debug]Evaluating success:
+2025-03-31T18:44:25.3978284Z ##[debug]=> false
+2025-03-31T18:44:25.3978932Z ##[debug]Result: false
+2025-03-31T18:44:25.3987538Z ##[debug]Evaluating condition for step: 'Post Step 1 - checkout repo'
+2025-03-31T18:44:25.3989961Z ##[debug]Evaluating: always()
+2025-03-31T18:44:25.3990652Z ##[debug]Evaluating always:
+2025-03-31T18:44:25.3992040Z ##[debug]=> true
+2025-03-31T18:44:25.3992900Z ##[debug]Result: true
+2025-03-31T18:44:25.3993782Z ##[debug]Starting: Post Step 1 - checkout repo
+2025-03-31T18:44:25.4048193Z ##[debug]Loading inputs
+2025-03-31T18:44:25.4049879Z ##[debug]Evaluating: github.repository
+2025-03-31T18:44:25.4050464Z ##[debug]Evaluating Index:
+2025-03-31T18:44:25.4050993Z ##[debug]..Evaluating github:
+2025-03-31T18:44:25.4051496Z ##[debug]..=> Object
+2025-03-31T18:44:25.4051949Z ##[debug]..Evaluating String:
+2025-03-31T18:44:25.4052436Z ##[debug]..=> 'repository'
+2025-03-31T18:44:25.4052999Z ##[debug]=> 'marviigrey/debug-workflows'
+2025-03-31T18:44:25.4053587Z ##[debug]Result: 'marviigrey/debug-workflows'
+2025-03-31T18:44:25.4056711Z ##[debug]Evaluating: github.token
+2025-03-31T18:44:25.4057295Z ##[debug]Evaluating Index:
+2025-03-31T18:44:25.4057776Z ##[debug]..Evaluating github:
+2025-03-31T18:44:25.4058280Z ##[debug]..=> Object
+2025-03-31T18:44:25.4058735Z ##[debug]..Evaluating String:
+2025-03-31T18:44:25.4059211Z ##[debug]..=> 'token'
+2025-03-31T18:44:25.4059878Z ##[debug]=> '***'
+2025-03-31T18:44:25.4060478Z ##[debug]Result: '***'
+2025-03-31T18:44:25.4077357Z ##[debug]Loading env
+2025-03-31T18:44:25.4084375Z Post job cleanup.
+2025-03-31T18:44:25.4979662Z ##[debug]Getting git version
+2025-03-31T18:44:25.4993666Z [command]/usr/bin/git version
+2025-03-31T18:44:25.5029942Z git version 2.49.0
+2025-03-31T18:44:25.5052459Z ##[debug]0
+2025-03-31T18:44:25.5053194Z ##[debug]git version 2.49.0
+2025-03-31T18:44:25.5053967Z ##[debug]
+2025-03-31T18:44:25.5055050Z ##[debug]Set git useragent to: git/2.49.0 (github-actions-checkout)
+2025-03-31T18:44:25.5057874Z ::add-mask::***
+2025-03-31T18:44:25.5072342Z Temporarily overriding HOME='/home/runner/work/_temp/1cbb0245-bc9a-48b0-ab52-9fbeed113dfe' before making global git config changes
+2025-03-31T18:44:25.5073791Z Adding repository directory to the temporary git global config as a safe directory
+2025-03-31T18:44:25.5078361Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/debug-workflows/debug-workflows
+2025-03-31T18:44:25.5107925Z ##[debug]0
+2025-03-31T18:44:25.5109324Z ##[debug]
+2025-03-31T18:44:25.5115829Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-03-31T18:44:25.5142475Z ##[debug]1
+2025-03-31T18:44:25.5143263Z ##[debug]
+2025-03-31T18:44:25.5148777Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-03-31T18:44:25.5370389Z ##[debug]0
+2025-03-31T18:44:25.5371468Z ##[debug]
+2025-03-31T18:44:25.5376977Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-03-31T18:44:25.5396286Z http.https://github.com/.extraheader
+2025-03-31T18:44:25.5405164Z ##[debug]0
+2025-03-31T18:44:25.5406077Z ##[debug]http.https://github.com/.extraheader
+2025-03-31T18:44:25.5406630Z ##[debug]
+2025-03-31T18:44:25.5410924Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-03-31T18:44:25.5436429Z ##[debug]0
+2025-03-31T18:44:25.5440686Z ##[debug]
+2025-03-31T18:44:25.5442141Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-03-31T18:44:25.5659855Z ##[debug]0
+2025-03-31T18:44:25.5660767Z ##[debug]
+2025-03-31T18:44:25.5661497Z ##[debug]Unsetting HOME override
+2025-03-31T18:44:25.5720524Z ##[debug]Node Action run completed with exit code 0
+2025-03-31T18:44:25.5723748Z ##[debug]Finishing: Post Step 1 - checkout repo
+2025-03-31T18:44:25.5768574Z ##[debug]Starting: Complete job
+2025-03-31T18:44:25.5771086Z Uploading runner diagnostic logs
+2025-03-31T18:44:25.5782441Z ##[debug]Starting diagnostic file upload.
+2025-03-31T18:44:25.5783086Z ##[debug]Setting up diagnostic log folders.
+2025-03-31T18:44:25.5786029Z ##[debug]Creating diagnostic log files folder.
+2025-03-31T18:44:25.5794766Z ##[debug]Copying 1 worker diagnostic logs.
+2025-03-31T18:44:25.5803452Z ##[debug]Copying 1 runner diagnostic logs.
+2025-03-31T18:44:25.5805281Z ##[debug]Zipping diagnostic files.
+2025-03-31T18:44:25.5875822Z ##[debug]Uploading diagnostic metadata file.
+2025-03-31T18:44:25.5903356Z ##[debug]Diagnostic file upload complete.
+2025-03-31T18:44:25.5963680Z Completed runner diagnostic log upload
+2025-03-31T18:44:25.5964300Z Cleaning up orphan processes
+2025-03-31T18:44:25.6163859Z ##[debug]Finishing: Complete job
+2025-03-31T18:44:25.6197960Z ##[debug]Finishing: debug_job
